@@ -1,12 +1,22 @@
 {
   "name": "@mini-formkit",
   "version": "1.0.0",
-  "description": "A simple form validation for Vue application",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Simple, lightweight form validation for Vue application",
+  "private": true,
   "keywords": ["vue", "vue3", "vue3-form", "form", "formkit"],
   "author": "HoaiLee",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoaiLee/mini-formkit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
