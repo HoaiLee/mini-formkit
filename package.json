@@ -1,5 +1,5 @@
 {
-  "name": "@mini-formkit",
+  "name": "mini-formkit",
   "version": "1.0.0",
   "description": "Simple, lightweight form validation for Vue application",
   "private": true,
